@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crunchyroll Premium Access</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: url('https://www.dl.dropboxusercontent.com/scl/fi/hg7qw7r552von3120514x/8982d48e5d6405738cca42058e5614db.jpg?rlkey=etumnv8crmfe7to2bvm2k1qym&st=rxo3twu4&dl=0') no-repeat center center/cover;
+      backdrop-filter: blur(5px);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #ffffff;
+    }
+
+    .header {
+      text-align: center;
+      padding: 3rem 1rem 2rem;
+    }
+
+    .anime-glow {
+      font-size: 2.8rem;
+      color: #fff;
+      background: linear-gradient(90deg, #ff6a00, #ffcc00, #ff6a00);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      animation: neon-flicker 1.5s infinite;
+    }
+
+    .header p {
+      font-size: 1.2rem;
+      color: #ffecb3;
+      margin-top: 0.5rem;
+    }
+
+    .pricing {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      justify-content: center;
+      align-items: center;
+      margin-top: 1rem;
+    }
+
+    @media(min-width: 768px) {
+      .pricing {
+        flex-direction: row;
+      }
+    }
+
+    .plan {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(12px);
+      border-radius: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 2rem;
+      width: 280px;
+      text-align: center;
+      box-shadow: 0 0 25px rgba(255, 174, 0, 0.3);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .plan:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 40px rgba(255, 198, 0, 0.6);
+    }
+
+    .plan h2 {
+      color: #ffd700;
+      margin-bottom: 0.5rem;
+    }
+
+    .plan p {
+      margin: 0.4rem 0;
+      color: #fff;
+    }
+
+    .plan strong {
+      font-size: 1.4rem;
+      color: #00ffd5;
+    }
+
+    button {
+      margin-top: 1rem;
+      padding: 0.7rem 1.3rem;
+      background: #ff6a00;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: 0.3s ease;
+    }
+
+    button:hover {
+      background: #ff944d;
+    }
+
+    button a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .footer {
+      margin-top: 4rem;
+      padding: 1rem;
+      font-size: 0.85rem;
+      color: #ccc;
+      text-align: center;
+    }
+
+    @keyframes neon-flicker {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.8; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <div class="header">
+    <h1 class="anime-glow">CRUNCHYROLL SUBSCRIPTION</h1>
+    <p>Anime for Everyone — Join Now & Stream in HD!</p>
+  </div>
+
+  <!-- Pricing Section -->
+  <div class="pricing">
+    <!-- Plan 1 -->
+    <div class="plan">
+      <h2>1 Month Plan</h2>
+      <p>Get access for 30 days</p>
+      <p><strong>Only ₹39</strong></p>
+      <button>
+        <a href="https://wa.me/917804966575?text=Hey%20I%20Want%20To%20Buy%20Subscription%20😄!" target="_blank">
+          Join Now
+        </a>
+      </button>
+    </div>
+
+    <!-- Plan 2 -->
+    <div class="plan">
+      <h2>1 Year Plan</h2>
+      <p>Full access for 12 months</p>
+      <p><strong>Only ₹349</strong></p>
+      <button>
+        <a href="https://wa.me/917804966575?text=Hey%20I%20Want%20To%20Buy%20Crunchyroll%20Subscription%20😆!!" target="_blank">
+          Join Now
+        </a>
+      </button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>Not affiliated with Crunchyroll Inc. This is a shared access service for anime lovers ❤</p>
+  </div>
+</body>
+</html>
